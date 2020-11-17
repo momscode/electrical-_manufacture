@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include electrical_manufacture *.css
+recursive-include electrical_manufacture *.csv
+recursive-include electrical_manufacture *.html
+recursive-include electrical_manufacture *.ico
+recursive-include electrical_manufacture *.js
+recursive-include electrical_manufacture *.json
+recursive-include electrical_manufacture *.md
+recursive-include electrical_manufacture *.png
+recursive-include electrical_manufacture *.py
+recursive-include electrical_manufacture *.svg
+recursive-include electrical_manufacture *.txt
+recursive-exclude electrical_manufacture *.pyc
